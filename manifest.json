@@ -243,6 +243,62 @@
 				],
 				"refer": [],
 				"priority": 0
+			},
+			"app/menu/tab-webview-main.html": {
+				"resources": [
+					"app/menu/tab-webview-subpage-chat.html",
+					"fonts/mui.ttf",
+					"app/rent/rent-page.html"
+				],
+				"refer": [
+					"app/menu/tab-webview-subpage-setting.html",
+					"app/menu/tab-webview-subpage-contact.html"
+				],
+				"priority": 0
+			},
+			"app/index.html": {
+				"resources": [
+					"app/menu/tab-webview-main.html",
+					"js/mui.min.js",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"app/rent/rent-page.html": {
+				"resources": [
+					"images/cbd.jpg",
+					"images/muwu.jpg",
+					"images/yuantiao.jpg",
+					"css/app.css",
+					"images/shuijiao.jpg"
+				],
+				"refer": [
+					"app/other/info.html"
+				],
+				"priority": 0
+			},
+			"app/menu/tab-webview-subpage-setting.html": {
+				"resources": [
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"app/menu/tab-webview-subpage-chat.html": {
+				"resources": [
+					"js/mui.min.js",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"app/other/info.html": {
+				"resources": [
+					"images/qrcode.png"
+				],
+				"refer": [],
+				"priority": 0
 			}
 		},
 		"idle": {

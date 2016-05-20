@@ -1,48 +1,99 @@
 {
-  "html/tab-webview-main.html": {
-    "resources": [
-      "html/rent-page.html"
-    ],
-    "refer": [
-      "html/tab-webview-subpage-setting.html",
-      "html/tab-webview-subpage-chat.html",
-      "html/rent-page.html",
-      "html/tab-webview-subpage-contact.html"
-    ]
-  },
-  "html/rent-page.html": {
-    "resources": [
-      "images/cbd.jpg",
-      "images/muwu.jpg",
-      "images/yuantiao.jpg",
-      "css/app.css",
-      "images/shuijiao.jpg"
-    ]
-  },
-  "index.html": {
-    "resources": [
-      "html/tab-webview-main.html",
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/mui.min.css"
-    ],
-    "refer": [
-      "html/tab-webview-main.html",
-      "html/info.html",
-      "index-menu.html"
-    ]
-  },
-  "html/tab-webview-subpage-contact.html": {
-    "resources": [
-      "images/60x60.gif"
-    ]
-  },
-  "html/info.html": {
-    "resources": [
-      "images/qrcode.png",
-      "js/mui.min.js",
-      "css/app.css",
-      "css/mui.min.css"
-    ]
-  }
+	"html/tab-webview-main.html": {
+		"resources": [
+			"html/rent-page.html"
+		],
+		"refer": [
+			"html/tab-webview-subpage-setting.html",
+			"html/tab-webview-subpage-chat.html",
+			"html/rent-page.html",
+			"html/tab-webview-subpage-contact.html"
+		]
+	},
+	"html/rent-page.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"images/muwu.jpg",
+			"images/yuantiao.jpg",
+			"css/app.css",
+			"images/shuijiao.jpg"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"html/tab-webview-main.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"html/tab-webview-main.html",
+			"html/info.html",
+			"index-menu.html"
+		]
+	},
+	"html/tab-webview-subpage-contact.html": {
+		"resources": [
+			"images/60x60.gif"
+		]
+	},
+	"html/info.html": {
+		"resources": [
+			"images/qrcode.png",
+			"js/mui.min.js",
+			"css/app.css",
+			"css/mui.min.css"
+		]
+	},
+	"app/menu/tab-webview-main.html": {
+		"resources": [
+			"app/menu/tab-webview-subpage-chat.html",
+			"fonts/mui.ttf",
+			"app/rent/rent-page.html"
+		],
+		"refer": [
+			"app/menu/tab-webview-subpage-chat.html",
+			"app/menu/tab-webview-subpage-setting.html",
+			"app/menu/tab-webview-subpage-contact.html",
+			"app/rent/rent-page.html"
+		]
+	},
+	"app/index.html": {
+		"resources": [
+			"app/menu/tab-webview-main.html",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"app/menu/tab-webview-main.html"
+		]
+	},
+	"app/rent/rent-page.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"images/muwu.jpg",
+			"images/yuantiao.jpg",
+			"css/app.css",
+			"images/shuijiao.jpg"
+		],
+		"refer": [
+			"app/other/info.html"
+		]
+	},
+	"app/menu/tab-webview-subpage-setting.html": {
+		"resources": [
+			"fonts/mui.ttf"
+		]
+	},
+	"app/menu/tab-webview-subpage-chat.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"app/other/info.html": {
+		"resources": [
+			"images/qrcode.png"
+		]
+	}
 }
