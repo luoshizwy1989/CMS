@@ -77,7 +77,8 @@
 			"images/shuijiao.jpg"
 		],
 		"refer": [
-			"app/other/info.html"
+			"app/other/info.html",
+			"app/rent/rent-menu.html"
 		]
 	},
 	"app/menu/tab-webview-subpage-setting.html": {

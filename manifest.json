@@ -274,7 +274,8 @@
 					"images/shuijiao.jpg"
 				],
 				"refer": [
-					"app/other/info.html"
+					"app/other/info.html",
+					"app/rent/rent-menu.html"
 				],
 				"priority": 0
 			},
